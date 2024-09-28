@@ -82,3 +82,88 @@ header button:hover {
     transform: scale(1.1);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+/* About Me Section */
+.about-me {
+    background: white;
+    margin: 40px 0;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.3s;
+}
+
+.about-me:hover {
+    transform: scale(1.02);
+}
+
+.about-me img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 10px solid white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.about-me-text {
+    flex: 1;
+    margin-left: 30px;
+}
+
+.about-me-text h2 {
+    color: #4e54c8;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.about-me-text p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+ /* Skills Section */
+ .skills {
+    margin: 40px 0;
+    padding: 30px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    font-size: 2em;
+    color: #4e54c8;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.skills .skill-bar {
+    margin-bottom: 20px;
+}
+
+.skills .skill-bar p {
+    margin: 0 0 10px;
+    font-weight: 500;
+}
+
+.skills .progress {
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.skills .progress-bar {
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    height: 20px;
+    transition: width 1s;
+}
