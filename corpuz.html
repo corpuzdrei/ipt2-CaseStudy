@@ -298,6 +298,63 @@ header button:hover {
             background-color: #8f94fb;
             transform: translateY(-2px);
         }
+        
+        /* Footer Styles */
+        footer {
+            background-color: #4e54c8;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 40px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        footer a:hover {
+            color: #8f94fb;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .about-me {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .about-me-text {
+                margin-left: 0;
+            }
+
+            .about-me img {
+                margin-bottom: 20px;
+            }
+
+            .skills, .projects, .contact {
+                margin: 20px 0;
+                padding: 20px;
+            }
+        }
+    </style>
 <head>
     
 </head>
